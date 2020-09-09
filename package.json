@@ -1,0 +1,23 @@
+{
+  "name": "tic-tac-toe3",
+  "version": "1.0.0",
+  "description": "Third version of React course project, to implement jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/PacificRebel/tic-tac-toe3.git"
+  },
+  "keywords": [
+    "react",
+    "jest"
+  ],
+  "author": "HS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PacificRebel/tic-tac-toe3/issues"
+  },
+  "homepage": "https://github.com/PacificRebel/tic-tac-toe3#readme"
+}
