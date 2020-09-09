@@ -19,5 +19,31 @@
   "bugs": {
     "url": "https://github.com/PacificRebel/tic-tac-toe3/issues"
   },
-  "homepage": "https://github.com/PacificRebel/tic-tac-toe3#readme"
+  "homepage": "https://github.com/PacificRebel/tic-tac-toe3#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.0.2",
+    "babel-jest": "^26.3.0",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "jest": "^26.4.2",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css)$": "<rootDir>/_mocks_/styleMock.js"
+    }
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-hot-loader": "^4.3.11"
+  }
 }
