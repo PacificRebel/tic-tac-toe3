@@ -4,10 +4,10 @@ import { render, screen } from '@testing-library/react';
 
 import App from './App'
 
-test('Shows Hello, World!', () => {
+test('Shows Add Note', () => {
   render(<App />)
 
   screen.debug()
 
-  expect(screen.getByText('Hello, World!')).toBeInTheDocument()
+  expect(screen.getByText('Add Note:')).toBeInTheDocument()
 })
