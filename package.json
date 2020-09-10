@@ -4,6 +4,7 @@
   "description": "Third version of React course project, to implement jest",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --mode development",
     "test": "jest"
   },
   "repository": {
